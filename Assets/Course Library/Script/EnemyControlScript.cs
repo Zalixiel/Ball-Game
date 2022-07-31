@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyControlScript : MonoBehaviour
 {
-    GameObject player;
+    [SerializeField] private GameObject player;
     Rigidbody enemyRb;
     public int speed=4;
     Vector3 toPlayer;

@@ -13,8 +13,8 @@ public class SpawnManagerScript : MonoBehaviour
     float powerUpSpawnRate=30;
     
 
-    public GameObject[] enemies;
-    public GameObject[] boosts;
+    [SerializeField] private GameObject[] enemies;
+    [SerializeField] private GameObject[] boosts;
     GameControlScript gameControlScript;
 
 

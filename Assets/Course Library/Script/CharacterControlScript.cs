@@ -33,7 +33,7 @@ public class CharacterControlScript : MonoBehaviour
     GameObject PowerBoostRing;
 
 
-        // TODO Boss kontrol et oldukca kolay dusuyor.
+        
     
     
 
